@@ -63,4 +63,9 @@ section img
     display:block;
 }
 
+a:hover
+{
+    background-color:#8233e8;
+}
+
 
