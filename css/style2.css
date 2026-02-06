@@ -7,6 +7,7 @@
     font-style:normal;
 }
 
+
 @font-face
 {
     font-family:Poppins;
@@ -37,10 +38,13 @@ h1
     font-family:"Unbounded", sans-serif;
 }
 
+
+
 h1 span
 {
     color:#9747ff;
 }
+
 
 p
 {
@@ -49,12 +53,17 @@ p
     font-family:"Poppins",sans-serif;
 }
 
+header img
+{
+    margin-left:450px;
+}
+
 section a
 {
     text-decoration:none;
     color:#ffffff;
     background-color:#9747ff;
-    font-size:24px;
+    font-family:"Poppins",sans-serif;
 }
 
 section img
@@ -63,9 +72,10 @@ section img
     display:block;
 }
 
-a:hover
+section a:hover
 {
     background-color:#8233e8;
+    border:2px #ffffff solid;
 }
 
 

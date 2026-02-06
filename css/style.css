@@ -43,6 +43,7 @@ span
     color:#9747ff;
 }
 
+
 p
 {
     font-size:24px;
@@ -50,7 +51,7 @@ p
     text-align: center;
 }
 
-a
+section a
 {
     text-decoration:none;
     color:#ffffff;
@@ -58,7 +59,7 @@ a
     font-family:"Poppins",sans-serif;
 }
 
-a:hover
+section a:hover
 {
     background-color: #8233e8;
 }
