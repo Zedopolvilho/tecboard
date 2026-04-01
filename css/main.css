@@ -22,6 +22,8 @@ section h1
     width:341px;
     font-size:40px;
     text-align: center;
+    font-weight: var(--text-weight);
+
 }
 
 section h1 span
@@ -31,6 +33,7 @@ section h1 span
 
 section p
 {
+    font-family:"Poppins",sans-serif;
     width:360px;
     height: 120px;
     font-size:20px;
@@ -39,6 +42,7 @@ section p
 
 section a
 {
+    font-family:"Poppins",sans-serif;
     text-decoration: none;
     display:flex;
     width:251px;
@@ -48,6 +52,11 @@ section a
     border-radius:36px;
     color:var(--terciary-color);
     background-color: var(--background-button-primary-color);
+}
+
+section a:hover
+{
+    background-color: var(--hover-primary-color);
 }
 
 

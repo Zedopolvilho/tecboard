@@ -1,5 +1,13 @@
 @font-face
 {
+    font-family:Poppins;
+    src:url("../fonts/Poppins-Regular.ttf") format("TrueType");
+    font-display:swap;
+    font-style:normal;
+}
+
+@font-face
+{
     font-family:Umbounded;
     src: url("../fonts/Unbounded-Bold.ttf") format("TrueType");
     font-display:swap;
@@ -26,6 +34,8 @@
     --background-secondary-color:#ffffff;
 
     --background-button-primary-color:#9747ff;
+
+    --text-weight:bold;
 }
 
 body
