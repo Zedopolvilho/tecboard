@@ -1,0 +1,35 @@
+@font-face
+{
+    font-family:Umbounded;
+    src: url("../fonts/Unbounded-Bold.ttf") format("TrueType");
+    font-display:swap;
+    font-style:normal;
+}
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --primary-color:#232323;
+    --secondary-color:#9747ff;
+    --terciary-color:#ffffff;
+
+    --hover-primary-color:#8233e8;
+
+
+    --background-primary-color:#0e1014;
+    --background-secondary-color:#ffffff;
+
+    --background-button-primary-color:#9747ff;
+}
+
+body
+{
+    background-color: var(--background-secondary-color);
+    font-family:"Umbounded",sans-serif;
+}
