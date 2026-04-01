@@ -59,12 +59,35 @@ section a:hover
     background-color: var(--hover-primary-color);
 }
 
+/*Aqui serve para fazer a troca de label entre imagem cor branca e imagem de cor escura*/
+
+.background-white
+{
+    display:none;
+}
+
+input[type=checkbox]:checked ~ .background-black
+{
+    display:none;
+}
+
+input[type=checkbox]:checked ~ .background-white
+{
+    display:block;
+}
+
+input[type=checkbox]:checked ~ body
+{
+    background-color: black;
+}
 
 label
 {
     cursor:pointer;
 }
 
+
+/*Termina*/
 
 .img-phone
 {
