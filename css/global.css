@@ -44,6 +44,7 @@ body
     font-family:"Umbounded",sans-serif;
 }
 
+/*Troca de background*/
 body:has(input[type=checkbox]:checked)
 {
     background-color: var(--background-primary-color);

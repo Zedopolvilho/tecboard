@@ -17,15 +17,19 @@ section
     justify-content: space-around;
 }
 
+/*Troca de background*/
+
 input[type=checkbox]:checked ~ main section h1
 {
-    color:white;
+    color:var(--terciary-color);
 }
 
 input[type=checkbox]:checked ~ main section p
 {
-    color:white;
+    color:var(--terciary-color);
 }
+
+/*Termina*/
 
 section h1
 {

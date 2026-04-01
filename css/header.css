@@ -43,14 +43,12 @@ input[type=checkbox]:checked ~ header .background-white
 }
 
 
+/*Termina*/
 
 label
 {
     cursor:pointer;
 }
-
-
-/*Termina*/
 
 @media screen and (min-width:768px)
 {
