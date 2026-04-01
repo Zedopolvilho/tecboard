@@ -9,6 +9,49 @@ header
     padding: 0 17px;
 }
 
+.logo-white
+{
+    display:none;
+}
+
+.background-white
+{
+    display:none;
+}
+
+
+/*Aqui serve para fazer a troca de label entre imagem cor branca e imagem de cor escura*/
+
+input[type=checkbox]:checked ~ header .logo-white
+{
+    display:block;
+}
+
+input[type=checkbox]:checked ~ header .logo-black
+{
+    display:none;
+}
+
+input[type=checkbox]:checked ~ header .background-black
+{
+    display:none;
+}
+
+input[type=checkbox]:checked ~ header .background-white
+{
+    display:block;
+}
+
+
+
+label
+{
+    cursor:pointer;
+}
+
+
+/*Termina*/
+
 @media screen and (min-width:768px)
 {
     header

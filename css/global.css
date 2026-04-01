@@ -43,3 +43,8 @@ body
     background-color: var(--background-secondary-color);
     font-family:"Umbounded",sans-serif;
 }
+
+body:has(input[type=checkbox]:checked)
+{
+    background-color: var(--background-primary-color);
+}
